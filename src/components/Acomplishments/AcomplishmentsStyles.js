@@ -25,20 +25,20 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 144px;
+  height: fit-content;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
+    height: fit-content;
 
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    height: fit-content;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: fit-content;
     padding: 12px;
     
     &:nth-child(2n){
@@ -56,11 +56,11 @@ export const BoxNum = styled.h5`
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 26px;
 }
 `
