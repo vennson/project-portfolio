@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 import {
   BlogCard,
@@ -12,16 +12,16 @@ import {
   TitleContent,
   UtilityList,
   Img,
-} from "./ProjectsStyles";
+} from './ProjectsStyles'
 import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { projects } from "../../constants/constants";
+} from '../../styles/GlobalComponents'
+import { projects } from '../../constants/constants'
 
 const Projects = () => (
-  <Section noPadding id="projects">
+  <Section noPadding id='projects'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
@@ -44,13 +44,15 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>Visit project</ExternalLinks>
-              {source && <ExternalLinks href={source}>Source code</ExternalLinks>}
+              {source && (
+                <ExternalLinks href={source}>Source code</ExternalLinks>
+              )}
             </UtilityList>
           </BlogCard>
         )
       )}
     </GridContainer>
   </Section>
-);
+)
 
-export default Projects;
+export default Projects
