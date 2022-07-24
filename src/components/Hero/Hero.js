@@ -22,7 +22,7 @@ const Hero = () => (
       <Button
         onClick={() =>
           (window.location =
-            'https://drive.google.com/file/d/19XtkJw1i3Nx8qdKDqI1jFKFf_b6JDNvl/view?usp=sharing')
+            'https://drive.google.com/file/d/1PbLaGeyi6VicVLg4k_vzYAwYStzgODe-/view?usp=sharing')
         }
       >
         Learn More
